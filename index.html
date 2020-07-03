@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+      <head>
+          <title>
+              Vikpenibe
+          </title>
+
+          <script>
+            //   var n = prompt ("what is your name");
+            //   alert("Hello " + n);
+            //   console.log(n);
+              
+            //   var myname ="Vikpenibe" ;
+            //   var gender = "Female" ;
+            //   var age = 24;
+            //   var employed = true;
+              
+            //   var num1 = parseInt (prompt("enter 1st number");
+            //   var num2 = parseInt (prompt("enter 2nd number");
+
+            //   alert(sum)
+
+            //   var firstname = "Vikpenibe";
+            //   var lastname = " Debpuur";
+            
+
+            //   alert (firstname +   " " + lastname);
+
+            // Conditionals
+
+            // var gender = prompt("Gender");
+
+            // if (gender =="female") {
+            //     alert("welcome to the program");
+            // } else {
+            //     alert("Sorry, for ladies only!"); 
+            // }
+
+            // function name() {
+            //     let first = prompt("first name");
+            //     let last = prompt("lastname");
+            //     alert("name" + " " + first + " " + last);
+                
+            // }
+            // alert("Vikpenibe");
+            // name(); 
+
+            // let age = prompt("age");
+            // if (age > 18) 
+            //     {alert("welcome to the bar");
+            //     } else {
+            //         alert("Sorry, only for those above 18!");
+            //     }
+                
+            //     function detector(name, year_of_birth, drink) {
+            //         let min_age = 18;
+            //         let age = 2020 - year_of_birth;
+            //         if(age < 18  && drink == "beer") {
+            //             alert("Sorry you are below the minimum age");
+            //         } else if (drink != "beer") {
+            //             alert("oya, drink!");
+            //         } else if ("Cheers to beer & life");
+            //           }
+                        
+             
+                    
+            //     let userName = prompt("what is your name?");
+            //     let year_of_birth = prompt("input year of birth");
+            //     let drink = prompt("drink type");
+
+            //     detector(userName, year_of_birth, drink);
+                          
+                    
+                    
+                  
+            
+           </script>
+
+          <link rel="stylesheet" href="styles.css" />
+
+         
+    </head> 
+    <body>
+        <a href="about.html">
+            About us
+          </a>
+          <!-- i love what I do -->
+        <h1 class="Tina msg">Welcome to my webpage</h1>
+      <p>
+          This is my first webpage and I love it.Hurrayy!!!!
+      </p>
+
+      <p class="msg">List of fruits</p>
+
+      <ul>
+          <li>Mango</li>
+          <li>Orange</li>
+          <li>Apple</li>
+          <li>Strawberry</li>
+          <li>Guava</li>
+          
+       </ul>
+
+       <h1>This is a new change</h1>
+       <hr />
+       <h1 style="color: red;">About myself</h1> 
+       <p>I am a fun loving person, like to watch movies,listen to music and tease my friends.I love to learn new things.
+      
+
+       </p> 
+       <p class="msg" style= font-style:italic; font-family: cursive; >These are a list of things I like</p>
+       <ul>
+           <li>I love a well laid bed after a cool bath</li>
+           <li> movies</li>
+           <li>cartoons</li>
+           <li>laptops</li>
+           <li>watches</li>
+
+         </ul>
+         <img src="puppy.jpg" alt="" />
+
+         <br />
+         <br />
+         <br />
+         
+          <div id="greetText"></div>
+         <input id="nameInput" type="text" placeholder="enter your name here"/>
+          <button id="greetBtn">Greet!</button>
+
+          <script>
+             
+              let btn = document.getElementById("greetBtn");
+
+              btn.addEventListener("click", function () {
+                //   alert("button clicked");
+                let msg = document.getElementById("greetText");
+                let name = document.getElementById("nameInput");
+
+                let val = name.value;
+                msg.innerText = "Hello, " + val;
+             });       
+          </script>
+
+
+
+
+         <p style="font-size: larger;">Things I don't like
+             <ol style="color: crimson; font-style: inherit;">Talking about others</ol>
+             <ol class="Tina">Watching local movies</ol>
+         </p>
+
+      </body>  
+</html>
